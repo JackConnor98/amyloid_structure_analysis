@@ -9,11 +9,6 @@
 
 Aberrant aggregation of intrinsically disordered proteins into large, insoluble structures known as amyloids is of clinical importance and has been implicated in several diseases. For example, the aggregation of Amyloid-β and Tau into plaques and neurofibrillary tangles are pathological hallmarks of Alzheimer's Disease. Amyloids are large, fibrillar and insoluble biological polymers which are assembled noncovalently from β-strand rich monomers arranged perpendicular to the fibril axis creating a cross-β structure. The amyloid structures formed by these intrinsically disordered proteins display high levels of structural polymorphism. Several distinct amyloid folds can be adopted by a single protein with an identical primary sequence. In addition to the inherited polymorphism, primary sequence-altering mutations have also been shown to form distinct amyloid folds. Understanding amyloid polymorphism is of clinical significance as distinct α-synuclein polymorphs have been solved from different synucleinopathies. Given the clinical importance of amyloid structural variations and the drastically increasing rate of solved biomolecular structures being published, there is a critical need for the ability to characterise and compare amyloid structures in a high-throughput manner. The aim of this work is to create an analysis pipeline that can group amyloid structures into hierarchical clusters based on their structural properties. This pipeline can be used for any amyloid-forming protein and aims to cluster amyloid structures so that the factors influencing polymorphism and the structure-function relationship of amyloids can be explored.
 
-<p align="center">
-  <img src="Figures/Cluster_Groups.png" alt="img" width="800"/>
-</p>
-
-
 ## Features
 * Web scrape the [Amyloid Atlas](https://people.mbi.ucla.edu/sawaya/amyloidatlas/) to access known published structures
 * Include your own local PDB structures
@@ -21,6 +16,10 @@ Aberrant aggregation of intrinsically disordered proteins into large, insoluble 
 * Calculate the structural properties of each unique chain
 * Calculate structural similarity between each unique chain using RMSD
 * Hierarchical clustering of amyloid structures into defined groups based on their structural properties
+
+<p align="center">
+  <img src="Figures/Cluster_Groups.png" alt="img" width="800"/>
+</p>
 
 ## INSTALLATION
 This is a work in progress. I am to write a script + documentation that will install all the required prerequisites.
