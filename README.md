@@ -22,7 +22,7 @@ Aberrant aggregation of intrinsically disordered proteins into large, insoluble 
 </p>
 
 ## INSTALLATION
-This is a work in progress. I am to write a script + documentation that will install all the required prerequisites.
+This is a work in progress. I plan on writing a script + documentation that will install all the required prerequisites.
 
 ## ANALYSIS PIPELINE
 
